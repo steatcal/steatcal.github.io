@@ -1,0 +1,19 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:steatcal.github.io:id-coop:alice",
+  "assertionMethod": [
+    {
+      "id": "did:web:steatcal.github.io:id-coop:alice#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:steatcal.github.io:id-coop:alice",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "alg": "RS256",
+        "x5c": [
+          "MIICuDCCAaCgAwIBAgIUIBNeRJ/Y4/dqVuzK2Yt5JtZpjyAwDQYJKoZIhvcNAQELBQAwFjEUMBIGA1UEAwwLc2VsZi1zaWduZWQwHhcNMjEwOTIyMTEzMjUwWhcNMjExMDAyMTEzMjUwWjAWMRQwEgYDVQQDDAtzZWxmLXNpZ25lZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM7n7JyvN5bqQECPqYSAH9HVu/C/+OhiiqSHMMtbWop/XNHqsfurZk8AH4cLa9+Sq/Hwuj/HpR5Szvk8BCob75Sw6JvyGMLAtQQfAA65PXvPpTFicVBjvav9Nf2hmRv4sVvGnXu4lNDbmJlUEEHoZDMHoWTjlPd8yqsnuZCgwG6pyZRc+5wvTAmQEGC/HK2XljQHaUaxhk5hD/wEYI3R46rSb3wua7y57VB4imEdgk3z4EEplu8DyZREZsrKLsyNNoGwXmlmJ2vG+vBFVfvVmlFCkZilPdYdfnf7w2As3hluYRaHDzsN5WfYHyesoHpopu4iAcIvupIL5yEk71TfI4ECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAdAsWlA3bq8XmjRfDdOTto1mfa45n0LGZsof6TmXDse0YI3laKc0ohIcptc3gyFHiAoRLnm0B9/EhlCaEcybwhImTGhvrcpI+U7If1ugKowXchYb6X4HcbzAmfc87Lpc7LtlwTbaQqkeZWTcZRuiZS+wW9j+GEyGBUI1d5rZr+JzK82HOtskHMDYiKufTKc9TVUUApFIT+B1F/R0NAM1/g6h3MEdg+9O/ylMUxoU/ysfFMp4MVf5+wJXfs2eyn2tjoE+1LiVyNYD+7Yxoc10+t210ZfabYKV3G4QQT2X/A2j2amoxy4IBNlLweUIlCg8EpmFcltJWWS0UhgPsxI/AJA=="
+        ],
+        "kid": "dbe6064d282623b569ae3b1f0537fd07f3641bfa1e1e3228c68b82ceb34a3d58"
+      }
+    }
+  ]
+}
